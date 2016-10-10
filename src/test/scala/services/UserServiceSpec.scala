@@ -1,6 +1,7 @@
 package services
 
 import org.scalatest._
+import service.UserServiceComponentImpl
 
 class UserServiceSpec extends FlatSpec with Matchers {
 

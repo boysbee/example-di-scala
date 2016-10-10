@@ -1,6 +1,7 @@
 package service
 
 import component._
+import domain.User
 
 trait UserServiceComponentImpl extends UserServiceComponent with UserComponentImpl {
   this: UserServiceComponent =>

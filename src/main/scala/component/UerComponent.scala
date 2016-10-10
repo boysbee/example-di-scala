@@ -1,5 +1,7 @@
 package component
 
+import domain.User
+
 trait UserComponentImpl extends UserComponent { this:UserComponent =>
   def userRepository: UserRepository = new UserRepositoryImpl
 
@@ -19,4 +21,4 @@ trait UserComponent {
   }
 
 }
-case class User(name: String, password: String)
+
